@@ -88,12 +88,12 @@ class LEClient
 
 		if (is_string($certificateKeys))
 		{
-			$certificateKeysDir = $certificateKeys;
+//			$certificateKeysDir = $certificateKeys;
 
 			if(!file_exists($certificateKeys))
 			{
 				mkdir($certificateKeys, 0755, true);
-				LEFunctions::createhtaccess($certificateKeys);
+//				LEFunctions::createhtaccess($certificateKeys);
 			}
 
 			$this->certificateKeys = array(
@@ -125,12 +125,12 @@ class LEClient
 
 		if (is_string($accountKeys))
 		{
-			$accountKeys = $certificateKeysDir.'/'.$accountKeys;
+//			$accountKeys = $certificateKeysDir.'/'.$accountKeys;
 
 			if(!file_exists($accountKeys))
 			{
 				mkdir($accountKeys, 0755, true);
-				LEFunctions::createhtaccess($accountKeys);
+//				LEFunctions::createhtaccess($accountKeys);
 			}
 
 			$this->accountKeys = array(

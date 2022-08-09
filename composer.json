@@ -1,5 +1,5 @@
 {
-    "name": "yourivw/leclient",
+    "name": "bodnar1212/leclient",
     "type": "library",
     "description": "PHP LetsEncrypt client library for ACME v2",
     "license": "MIT",
